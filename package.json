@@ -1,0 +1,25 @@
+{
+  "name": "@ai-native-solutions/trilogy-forge-api",
+  "version": "1.0.0",
+  "description": "trilogy-forge HTTP API · Express wrapper around @ai-native-solutions/trilogy-forge-sdk",
+  "type": "module",
+  "main": "src/index.js",
+  "files": ["src", "README.md", "LICENSE", "Dockerfile", "docker-compose.yml"],
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["trilogy-forge", "api", "http", "express", "ai-native-solutions"],
+  "author": "AI-Native Solutions",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjgant80-hub/trilogy-forge-api.git"
+  },
+  "dependencies": {
+    "express": "^4.19.0",
+    "@ai-native-solutions/trilogy-forge-sdk": "^1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
